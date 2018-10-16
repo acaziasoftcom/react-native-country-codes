@@ -14,12 +14,16 @@
 
 #### iOS
 
+Using [SearchablePicker](https://github.com/adamhongmy/SearchablePicker) and [EMCCountryPickerController](https://github.com/emcrisostomo/EMCCountryPickerController) with a lot of customized components.
+
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-country-codes` and add `RNCountryCodes.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNCountryCodes.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
 #### Android
+
+Using [country-picker-android](https://github.com/adamhongmy/SearchablePicker) with Material 2.
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
   - Add `import com.reactlibrary.RNCountryCodesPackage;` to the imports at the top of the file
