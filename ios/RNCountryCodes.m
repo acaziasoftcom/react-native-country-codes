@@ -1,7 +1,7 @@
 
-#import "RNCountries.h"
+#import "RNCountryCodes.h"
 
-@implementation RNCountries
+@implementation RNCountryCodes
 
 - (dispatch_queue_t)methodQueue
 {

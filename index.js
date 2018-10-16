@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNCountries } = NativeModules;
+const { RNCountryCodes } = NativeModules;
 
-export default RNCountries;
+export default RNCountryCodes;

@@ -5,7 +5,7 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNCountries : NSObject <RCTBridgeModule>
+@interface RNCountryCodes : NSObject <RCTBridgeModule>
 
 @end
   
